@@ -5,7 +5,7 @@ import { withRouter, NavLink } from 'react-router-dom';
 function Header() {
   return (
     <div className="header">
-      <div className="flex">
+      {/* <div className="flex"> */}
         <img src="/logo.png" alt="hooks news logo" className="logo"/>
           <NavLink to="/" className="header-title">hooks news</NavLink>
           <NavLink to="/" className="header-link">new</NavLink>
@@ -15,7 +15,7 @@ function Header() {
           <NavLink to="/search" className="header-link">search</NavLink>
           <div className="divider"> | </div>
           <NavLink to="/create" className="header-link">submit</NavLink>
-      </div>
+      {/* </div> */}
       <div className="flex">
       <NavLink to="/login" className="header-link">login</NavLink>
       </div>

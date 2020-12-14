@@ -121,10 +121,14 @@ textarea {
 
 .route-container {
   background-color: rgb(246, 246, 239);
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  /* padding: 1.2rem; */
 }
 
 .pagination {
